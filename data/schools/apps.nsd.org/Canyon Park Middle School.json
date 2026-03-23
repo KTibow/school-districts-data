@@ -1,12 +1,12 @@
 {
   "weather": {
-    "2026-03-23": "Mostly sunny, with a high near 53.",
-    "2026-03-24": "Rain. Cloudy, with a high near 52. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible.",
-    "2026-03-25": "Rain. Mostly cloudy, with a high near 50. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible.",
-    "2026-03-26": "A chance of rain and snow before 8am, then a chance of rain and snow between 8am and 11am. Mostly sunny, with a high near 53.",
-    "2026-03-27": "Sunny, with a high near 58.",
-    "2026-03-28": "Partly sunny, with a high near 61.",
-    "2026-03-29": "A chance of rain. Mostly cloudy, with a high near 59."
+    "2026-03-23": "Partly sunny, with a high near 53.",
+    "2026-03-24": "Rain. Cloudy, with a high near 53. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible.",
+    "2026-03-25": "Rain. Mostly cloudy, with a high near 50. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
+    "2026-03-26": "A chance of rain and snow before 11am. Mostly sunny, with a high near 53.",
+    "2026-03-27": "Mostly sunny, with a high near 57.",
+    "2026-03-28": "Partly sunny, with a high near 60.",
+    "2026-03-29": "A chance of rain. Mostly cloudy, with a high near 62."
   },
   "menus": {
     "2025-2026 Middle School Breakfast": {
@@ -2138,6 +2138,7 @@
         "Grab and Go": [
           "Chicken Caesar Salad with Roll",
           "Korean BBQ Tofu Wrap",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey BLT Deli Sandwich",
           "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
@@ -2177,6 +2178,870 @@
           "Pico de Gallo",
           "Salsa",
           "Shredded Lettuce"
+        ]
+      },
+      "2026-04-01": {
+        "Fruit": [
+          "Apple",
+          "Apple Juice",
+          "Assorted Fruit Cup",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chef Salad with Roll",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey and Cheese Deli Sandwich with Vegetables",
+          "Vegan Buffalo Chickpea Wrap",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Chicken Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "BBQ Chicken Pizza",
+          "Four Cheese Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Special": [
+          "Chicken Buffalo Totchos with Garlic Bread",
+          "Meatless Chicken Buffalo Totchos with Garlic Bread"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Broccoli",
+          "Caesar Dressed Romaine",
+          "Green Peas"
+        ]
+      },
+      "2026-04-02": {
+        "Fruit": [
+          "Apple Juice",
+          "Canned Diced Peaches",
+          "Dried Cranberries",
+          "Fresh Orange",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad Wrap",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey BLT Deli Sandwich",
+          "Vegan Southwest Bowl with Fritos",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "Four Cheese Pizza",
+          "Hawaiian Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Orange Chicken Chow Mein Noodle Bowl",
+          "Orange Chicken Rice Bowl",
+          "Steamed Broccoli",
+          "Vegan Dal over Rice"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Cilantro Slaw",
+          "Corn",
+          "Cucumbers"
+        ]
+      },
+      "2026-04-03": {
+        "Fruit": [
+          "Apple",
+          "Apple Juice",
+          "Applesauce Cups, Variety",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad with Roll",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey Ham & Cheese Sandwich",
+          "Vegan Satay Pinwheel",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Chicken Burger",
+          "Wild Alaska Fish Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing",
+          "Tartar Sauce"
+        ],
+        "Pizza": [
+          "BBQ Chicken Pizza",
+          "Four Cheese Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Bean and Cheese Burrito with Cheese Sauce and Veggies",
+          "Wild Alaska Fish Tacos"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Green Peas",
+          "Pickled Onions",
+          "Shredded Lettuce"
+        ]
+      },
+      "2026-04-13": {
+        "Fruit": [
+          "Apple",
+          "Apple Juice",
+          "Canned Sliced Pears",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad Wrap",
+          "Italian Turkey Deli Sandwich",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Chicken Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "BBQ Chicken Pizza",
+          "Four Cheese Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Chicken and Waffles",
+          "Three Sisters Stew with Cornbread"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Corn",
+          "Edamame",
+          "Romaine Salad"
+        ]
+      },
+      "2026-04-14": {
+        "Fruit": [
+          "Apple Juice",
+          "Dried Cranberries",
+          "Fresh Orange",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad with Roll",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey BLT Deli Sandwich",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing",
+          "Sliced Jalapenos"
+        ],
+        "Pizza": [
+          "Four Cheese Pizza",
+          "Pepperoni Pizza",
+          "Spicy Veggie Pizza"
+        ],
+        "Specials": [
+          "Cheese Nachos",
+          "Refried Beans",
+          "Turkey or Chicken Nachos with Cheese"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Black Beans",
+          "Pickled Onions",
+          "Romaine Salad",
+          "Salsa"
+        ]
+      },
+      "2026-04-15": {
+        "Fruit": [
+          "Apple",
+          "Apple Juice",
+          "Assorted Fruit Cup",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chef Salad with Roll",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey and Cheese Deli Sandwich with Vegetables",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Chicken Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "BBQ Chicken Pizza",
+          "Four Cheese Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Ramen Bowl",
+          "Ramen Bowl Vegetarain"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Broccoli",
+          "Caesar Dressed Romaine",
+          "Green Peas"
+        ]
+      },
+      "2026-04-16": {
+        "Fruit": [
+          "Apple Juice",
+          "Banana",
+          "Canned Diced Peaches",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad Wrap",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey BLT Deli Sandwich",
+          "Vegan Southwest Bowl with Fritos",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "Four Cheese Pizza",
+          "Hawaiian Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Orange Chicken Chow Mein Noodle Bowl",
+          "Orange Chicken Rice Bowl",
+          "Steamed Broccoli",
+          "Vegan Chana Masala with Rice"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Cilantro Slaw",
+          "Corn",
+          "Cucumbers"
+        ]
+      },
+      "2026-04-17": {
+        "Fruit": [
+          "Apple",
+          "Apple Juice",
+          "Applesauce Cups, Variety",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad with Roll",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey Ham & Cheese Sandwich",
+          "Vegan Satay Pinwheel",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Chicken Burger",
+          "Wild Alaska Fish Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing",
+          "Tartar Sauce"
+        ],
+        "Pizza": [
+          "BBQ Chicken Pizza",
+          "Four Cheese Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Jerk Chicken  White Rice and Mango Salsa",
+          "Jerk Tofu  White Rice and Mango Salsa"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Green Peas",
+          "Pickled Onions",
+          "Shredded Lettuce"
+        ]
+      },
+      "2026-04-20": {
+        "Fruit": [
+          "Apple",
+          "Apple Juice",
+          "Canned Sliced Pears",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad Wrap",
+          "Italian Turkey Deli Sandwich",
+          "Jerk Tofu Wrap",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Chicken Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "BBQ Chicken Pizza",
+          "Four Cheese Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Tomato Soup with Cheezy Breadstick",
+          "Wild Coho Salmon with Rice Pilaf"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Cucumbers",
+          "Edamame",
+          "Shredded Lettuce"
+        ]
+      },
+      "2026-04-21": {
+        "Fruit": [
+          "Apple Juice",
+          "Dried Cranberries",
+          "Fresh Orange",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad with Roll",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey BLT Deli Sandwich",
+          "Vegan Southwest Bowl with Fritos",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing",
+          "Sliced Jalapenos"
+        ],
+        "Pizza": [
+          "Four Cheese Pizza",
+          "Pepperoni Pizza",
+          "Spicy Veggie Pizza"
+        ],
+        "Specials": [
+          "Cheese Nachos",
+          "Refried Beans",
+          "Turkey or Chicken Nachos with Cheese"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Pickled Onions",
+          "Pico de Gallo",
+          "Salsa",
+          "Shredded Lettuce"
+        ]
+      },
+      "2026-04-22": {
+        "Fruit": [
+          "Apple",
+          "Apple Juice",
+          "Assorted Fruit Cup",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chef Salad with Roll",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey and Cheese Deli Sandwich with Vegetables",
+          "Vegan Buffalo Chickpea Wrap",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Chicken Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "BBQ Chicken Pizza",
+          "Four Cheese Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Pasta with Meat Sauce",
+          "Penne Pasta with Marinara and Cheese"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Broccoli",
+          "Caesar Dressed Romaine",
+          "Green Peas"
+        ]
+      },
+      "2026-04-23": {
+        "Fruit": [
+          "Apple Juice",
+          "Canned Diced Peaches",
+          "Dried Cranberries",
+          "Fresh Orange",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad Wrap",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey BLT Deli Sandwich",
+          "Vegan Southwest Bowl with Fritos",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "Four Cheese Pizza",
+          "Hawaiian Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Orange Chicken Chow Mein Noodle Bowl",
+          "Orange Chicken Rice Bowl",
+          "Steamed Broccoli",
+          "Vegan Rajma Masala"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Cilantro Slaw",
+          "Corn",
+          "Cucumbers"
+        ]
+      },
+      "2026-04-24": {
+        "Fruit": [
+          "Apple",
+          "Apple Juice",
+          "Applesauce Cups, Variety",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad with Roll",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey Ham & Cheese Sandwich",
+          "Vegan Satay Pinwheel",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Chicken Burger",
+          "Wild Alaska Fish Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing",
+          "Tartar Sauce"
+        ],
+        "Pizza": [
+          "BBQ Chicken Pizza",
+          "Four Cheese Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Feijoada with White Rice",
+          "Macaroni and Cheese with Roll"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Green Peas",
+          "Pickled Onions",
+          "Shredded Lettuce"
+        ]
+      },
+      "2026-04-27": {
+        "Fruit": [
+          "Apple",
+          "Apple Juice",
+          "Canned Sliced Pears",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad Wrap",
+          "Italian Turkey Deli Sandwich",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Vegan Buffalo Chickpea Wrap",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Chicken Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "BBQ Chicken Pizza",
+          "Four Cheese Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Korean BBQ Pork Rice Bowl",
+          "Korean BBQ Tofu Rice Bowl"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Cucumbers",
+          "Edamame",
+          "Shredded Lettuce"
+        ]
+      },
+      "2026-04-28": {
+        "Fruit": [
+          "Apple Juice",
+          "Dried Cranberries",
+          "Fresh Orange",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad with Roll",
+          "Korean BBQ Tofu Wrap",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey BLT Deli Sandwich",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing",
+          "Sliced Jalapenos"
+        ],
+        "Pizza": [
+          "Four Cheese Pizza",
+          "Pepperoni Pizza",
+          "Spicy Veggie Pizza"
+        ],
+        "Specials": [
+          "Cheese Nachos",
+          "Refried Beans",
+          "Turkey or Chicken Nachos with Cheese"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Pickled Onions",
+          "Pico de Gallo",
+          "Salsa",
+          "Shredded Lettuce"
+        ]
+      },
+      "2026-04-29": {
+        "Fruit": [
+          "Apple",
+          "Apple Juice",
+          "Assorted Fruit Cup",
+          "Dried Cranberries",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chef Salad with Roll",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey and Cheese Deli Sandwich with Vegetables",
+          "Vegan Buffalo Chickpea Wrap",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Chicken Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "BBQ Chicken Pizza",
+          "Four Cheese Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Special": [
+          "Chicken Buffalo Totchos with Garlic Bread",
+          "Meatless Chicken Buffalo Totchos with Garlic Bread"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Broccoli",
+          "Caesar Dressed Romaine",
+          "Green Peas"
+        ]
+      },
+      "2026-04-30": {
+        "Fruit": [
+          "Apple Juice",
+          "Canned Diced Peaches",
+          "Dried Cranberries",
+          "Fresh Orange",
+          "Fruit Punch"
+        ],
+        "Grab and Go": [
+          "Chicken Caesar Salad Wrap",
+          "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
+          "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
+          "Turkey BLT Deli Sandwich",
+          "Vegan Southwest Bowl with Fritos",
+          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+        ],
+        "Grill": [
+          "Cheeseburger",
+          "Chicken Tenders with Pretzel Bites",
+          "Golden Crispy Chicken Burger",
+          "Spicy Chicken Burger",
+          "Tater Tots",
+          "Vegan Burger"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ],
+        "Misc.": [
+          "Ketchup",
+          "Mustard",
+          "NSD Burger Sauce",
+          "Ranch Dressing"
+        ],
+        "Pizza": [
+          "Four Cheese Pizza",
+          "Hawaiian Pizza",
+          "Pepperoni Pizza"
+        ],
+        "Specials": [
+          "Orange Chicken Chow Mein Noodle Bowl",
+          "Orange Chicken Rice Bowl",
+          "Steamed Broccoli",
+          "Vegan Dal over Rice"
+        ],
+        "Vegetables": [
+          "Baby Carrots",
+          "Cilantro Slaw",
+          "Corn",
+          "Cucumbers"
         ]
       }
     }

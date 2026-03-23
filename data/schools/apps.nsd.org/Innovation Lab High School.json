@@ -1,12 +1,12 @@
 {
   "weather": {
-    "2026-03-23": "Mostly sunny, with a high near 52.",
-    "2026-03-24": "Rain. Cloudy, with a high near 52. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible.",
-    "2026-03-25": "Rain. Mostly cloudy, with a high near 50. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible.",
-    "2026-03-26": "A chance of rain and snow before 8am, then a chance of rain and snow between 8am and 11am. Mostly sunny, with a high near 53.",
-    "2026-03-27": "Mostly sunny, with a high near 57.",
-    "2026-03-28": "Partly sunny, with a high near 61.",
-    "2026-03-29": "A chance of rain. Mostly cloudy, with a high near 59."
+    "2026-03-23": "Partly sunny, with a high near 53.",
+    "2026-03-24": "Rain. Cloudy, with a high near 53. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible.",
+    "2026-03-25": "Rain. Mostly cloudy, with a high near 50. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
+    "2026-03-26": "A chance of rain and snow before 11am. Mostly sunny, with a high near 53.",
+    "2026-03-27": "Mostly sunny, with a high near 56.",
+    "2026-03-28": "Partly sunny, with a high near 59.",
+    "2026-03-29": "A chance of rain. Mostly cloudy, with a high near 61."
   },
   "menus": {
     "2025-2026 SAS and ILAB BREAKFAST": {
@@ -391,7 +391,300 @@
           "Apple",
           "Applesauce Cups, Flavored",
           "Cereal Variety",
+          "Egg & Cheese English Muffin Sandwich",
           "Peanut Butter & Jelly Uncrustable Sandwich"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-01": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Breakfast Cheese Nachos",
+          "Cereal Variety",
+          "Eggo Mini Confetti Pancakes",
+          "Fruit Cup"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-02": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Breakfast Pizza",
+          "Cereal Variety",
+          "Fresh Orange",
+          "Sliced Bread Variety"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-03": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Cereal Variety",
+          "Fruit Cup",
+          "Sliced Bread Variety",
+          "Whole Grain Donut Long"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-13": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Assorted Fruit Cup",
+          "Cereal Variety",
+          "Mini French Toast",
+          "Powdered Mini Donut Holes",
+          "Waffles, Strawberry or Maple"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-14": {
+        "Breakfast Entree": [
+          "Apple",
+          "Applesauce Cups, Flavored",
+          "Cereal Variety",
+          "Egg & Cheese English Muffin Sandwich",
+          "Peanut Butter & Jelly Uncrustable Sandwich"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-15": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Cereal Variety",
+          "Eggo Mini Confetti Pancakes",
+          "Fruit Cup",
+          "Muffin Top and String Cheese"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-16": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Breakfast Pizza",
+          "Cereal Variety",
+          "Fresh Orange",
+          "Sliced Bread Variety"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-17": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Cereal Variety",
+          "Fruit Cup",
+          "Sliced Bread Variety",
+          "Whole Grain Donut Long"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-20": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Assorted Fruit Cup",
+          "Cereal Variety",
+          "Mini French Toast",
+          "Powdered Mini Donut Holes",
+          "Waffles, Strawberry or Maple"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-21": {
+        "Breakfast Entree": [
+          "Apple",
+          "Applesauce Cups, Flavored",
+          "Cereal Variety",
+          "Egg & Cheese English Muffin Sandwich",
+          "Peanut Butter & Jelly Uncrustable Sandwich"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-22": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Cereal Variety",
+          "Eggo Mini Confetti Pancakes",
+          "Fruit Cup",
+          "Muffin Top and String Cheese"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-23": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Breakfast Pizza",
+          "Cereal Variety",
+          "Fresh Orange",
+          "Sliced Bread Variety"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-24": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Cereal Variety",
+          "Fruit Cup",
+          "Sliced Bread Variety",
+          "Whole Grain Donut Long"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-27": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Assorted Fruit Cup",
+          "Cereal Variety",
+          "Mini French Toast",
+          "Powdered Mini Donut Holes",
+          "Waffles, Strawberry or Maple"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-28": {
+        "Breakfast Entree": [
+          "Apple",
+          "Applesauce Cups, Flavored",
+          "Cereal Variety",
+          "Egg & Cheese English Muffin Sandwich",
+          "Peanut Butter & Jelly Uncrustable Sandwich"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-29": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Cereal Variety",
+          "Eggo Mini Confetti Pancakes",
+          "Fruit Cup",
+          "Muffin Top and String Cheese"
+        ],
+        "Fruit": [
+          "Apple Juice",
+          "Fruit Punch"
+        ],
+        "Milk": [
+          "1% White Milk",
+          "Non Fat White Milk"
+        ]
+      },
+      "2026-04-30": {
+        "Breakfast Entree": [
+          "Applesauce Cups, Flavored",
+          "Breakfast Pizza",
+          "Cereal Variety",
+          "Fresh Orange",
+          "Sliced Bread Variety"
         ],
         "Fruit": [
           "Apple Juice",
