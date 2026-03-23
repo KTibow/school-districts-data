@@ -1,11 +1,11 @@
 {
   "weather": {
-    "2026-03-23": "Partly sunny, with a high near 53.",
+    "2026-03-23": "Mostly cloudy, with a high near 53.",
     "2026-03-24": "Rain. Cloudy, with a high near 52. Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible.",
     "2026-03-25": "Rain. Mostly cloudy, with a high near 49. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
     "2026-03-26": "A chance of rain and snow before 11am. Mostly sunny, with a high near 52.",
     "2026-03-27": "Mostly sunny, with a high near 56.",
-    "2026-03-28": "Partly sunny, with a high near 59.",
+    "2026-03-28": "Partly sunny, with a high near 60.",
     "2026-03-29": "A chance of rain. Mostly cloudy, with a high near 61."
   },
   "menus": {
@@ -2140,8 +2140,7 @@
           "Korean BBQ Tofu Wrap",
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
-          "Turkey BLT Deli Sandwich",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Turkey BLT Deli Sandwich"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2193,8 +2192,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey and Cheese Deli Sandwich with Vegetables",
-          "Vegan Buffalo Chickpea Wrap",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Buffalo Chickpea Wrap"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2243,8 +2241,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey BLT Deli Sandwich",
-          "Vegan Southwest Bowl with Fritos",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Southwest Bowl with Fritos"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2295,8 +2292,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey Ham & Cheese Sandwich",
-          "Vegan Satay Pinwheel",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Satay Pinwheel"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2377,7 +2373,7 @@
         ],
         "Vegetables": [
           "Baby Carrots",
-          "Corn",
+          "Corn ",
           "Edamame",
           "Romaine Salad"
         ]
@@ -2393,8 +2389,7 @@
           "Chicken Caesar Salad with Roll",
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
-          "Turkey BLT Deli Sandwich",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Turkey BLT Deli Sandwich"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2445,8 +2440,7 @@
           "Chef Salad with Roll",
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
-          "Turkey and Cheese Deli Sandwich with Vegetables",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Turkey and Cheese Deli Sandwich with Vegetables"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2495,8 +2489,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey BLT Deli Sandwich",
-          "Vegan Southwest Bowl with Fritos",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Southwest Bowl with Fritos"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2547,8 +2540,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey Ham & Cheese Sandwich",
-          "Vegan Satay Pinwheel",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Satay Pinwheel"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2647,8 +2639,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey BLT Deli Sandwich",
-          "Vegan Southwest Bowl with Fritos",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Southwest Bowl with Fritos"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2700,8 +2691,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey and Cheese Deli Sandwich with Vegetables",
-          "Vegan Buffalo Chickpea Wrap",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Buffalo Chickpea Wrap"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2750,8 +2740,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey BLT Deli Sandwich",
-          "Vegan Southwest Bowl with Fritos",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Southwest Bowl with Fritos"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2802,8 +2791,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey Ham & Cheese Sandwich",
-          "Vegan Satay Pinwheel",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Satay Pinwheel"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2902,8 +2890,7 @@
           "Korean BBQ Tofu Wrap",
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
-          "Turkey BLT Deli Sandwich",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Turkey BLT Deli Sandwich"
         ],
         "Grill": [
           "Cheeseburger",
@@ -2955,8 +2942,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey and Cheese Deli Sandwich with Vegetables",
-          "Vegan Buffalo Chickpea Wrap",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Buffalo Chickpea Wrap"
         ],
         "Grill": [
           "Cheeseburger",
@@ -3005,8 +2991,7 @@
           "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin",
           "Protein Pack w/Egg, Cheese Sauce & Pretzel Bites",
           "Turkey BLT Deli Sandwich",
-          "Vegan Southwest Bowl with Fritos",
-          "Yogurt Grab & Go Lunch with Blueberry Mini Waffles"
+          "Vegan Southwest Bowl with Fritos"
         ],
         "Grill": [
           "Cheeseburger",
@@ -3050,6 +3035,7 @@
     "Ashlee Jackson",
     "Bret Geller",
     "Darla Guymon",
+    "Heather Baldwin-Mccurdy",
     "Kerri (Staff) Booth",
     "Kimberly Bevier",
     "Melanie Glazener",
