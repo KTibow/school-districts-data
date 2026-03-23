@@ -15,11 +15,6 @@ const normalizeMenuListing = (listing) =>
     ]),
   );
 
-const cleanMenuName = (name) =>
-  name
-    .replace(/^\d+-\d+ /, "")
-    .replace(/^(?:Elementary|Middle|High) School /, "");
-
 const getMenuMonths = () => {
   const current = new Date();
   current.setUTCDate(1);
@@ -59,50 +54,38 @@ const parseMenuListing = (setting) => {
     : undefined;
 };
 
-const menuCache = new Map();
-
 export const loadMenus = async ({ districtBase, schoolBase }) => {
-  const cacheKey = `${districtBase}::${schoolBase}`;
-  if (menuCache.has(cacheKey)) {
-    return menuCache.get(cacheKey);
-  }
+  const { data: menus } = await fetchJson(`${schoolBase}/menus`);
+  const output = {};
 
-  const promise = (async () => {
-    const { data: menus } = await fetchJson(`${schoolBase}/menus`);
-    const output = {};
+  for (const { id, name } of menus) {
+    const menuName = name;
+    const menuDays = {};
 
-    for (const { id, name } of menus) {
-      const menuName = cleanMenuName(name);
-      const menuDays = {};
-
-      for (const { year, month } of getMenuMonths()) {
-        const url = `${districtBase}/menus/${id}/year/${year}/month/${month}/date_overwrites`;
-        const response = await fetchResponse(url);
-        if (response.status == 400) {
-          console.warn(`Menus: skipping unavailable month for ${url}.`);
-          continue;
-        }
-        if (!response.ok) {
-          throw new Error(
-            `${response.status} ${response.statusText} from ${url}`,
-          );
-        }
-
-        const { data: overwrites } = JSON.parse(await response.text());
-        for (const { day, setting } of overwrites) {
-          const listing = parseMenuListing(setting);
-          menuDays[day] = listing;
-        }
+    for (const { year, month } of getMenuMonths()) {
+      const url = `${districtBase}/menus/${id}/year/${year}/month/${month}/date_overwrites`;
+      const response = await fetchResponse(url);
+      if (response.status == 400) {
+        console.warn(`Menus: skipping ${year}/${month} for ${url}.`);
+        continue;
+      }
+      if (!response.ok) {
+        throw new Error(
+          `${response.status} ${response.statusText} from ${url}`,
+        );
       }
 
-      if (Object.keys(menuDays).length) {
-        output[menuName] = sortObject(menuDays);
+      const { data: overwrites } = JSON.parse(await response.text());
+      for (const { day, setting } of overwrites) {
+        const listing = parseMenuListing(setting);
+        menuDays[day] = listing;
       }
     }
 
-    return sortObject(output);
-  })();
+    if (Object.keys(menuDays).length) {
+      output[menuName] = sortObject(menuDays);
+    }
+  }
 
-  menuCache.set(cacheKey, promise);
-  return await promise;
+  return sortObject(output);
 };

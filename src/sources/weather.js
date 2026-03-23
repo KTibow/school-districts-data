@@ -1,4 +1,4 @@
-import { fetchJson } from '../http.js';
+import { fetchJson } from "../http.js";
 
 const WIND_WORD = /\bwind\b/i;
 
@@ -6,7 +6,7 @@ const formatForecast = (forecast) =>
   forecast
     .split(/(?<=\.) /)
     .filter((sentence) => !WIND_WORD.test(sentence))
-    .join(' ');
+    .join(" ");
 
 const weatherCache = new Map();
 
@@ -16,16 +16,15 @@ export const loadWeather = async (forecastBase) => {
   }
 
   const promise = (async () => {
-    const data = await fetchJson(`${forecastBase}/forecast`, {
-      headers: {
-        accept: 'application/geo+json, application/json',
-      },
-    });
+    const data = await fetchJson(`${forecastBase}/forecast`);
 
     return Object.fromEntries(
       data.properties.periods
         .filter((period) => period.isDaytime)
-        .map((period) => [period.startTime.slice(0, 10), formatForecast(period.detailedForecast ?? '')])
+        .map((period) => [
+          period.startTime.slice(0, 10),
+          formatForecast(period.detailedForecast ?? ""),
+        ])
         .filter(([, forecast]) => forecast)
         .sort(([a], [b]) => a.localeCompare(b)),
     );
