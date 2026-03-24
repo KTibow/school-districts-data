@@ -79,7 +79,7 @@ const processOverwrite = (output, menuName, { day, setting }) => {
   }
 };
 
-export const loadMenus = async ({ districtBase, schoolBase }) => {
+export const loadMeals = async ({ districtBase, schoolBase }) => {
   const { data: menus } = await fetchJson(`${schoolBase}/menus`);
   const now = new Date();
   const output = {};

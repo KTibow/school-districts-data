@@ -3,8 +3,8 @@ import path from "node:path";
 
 import { districtApps, districtNews, schoolApps } from "school-districts";
 import { loadDistrictAlerts } from "./sources/flashalert.js";
-import { loadMenus } from "./sources/menus.js";
-import { loadSubs, supportsSubs } from "./sources/subs.js";
+import { loadMeals } from "./sources/meals.js";
+import { loadSubs } from "./sources/subs.js";
 import { loadWeather } from "./sources/weather.js";
 
 const DATA_DIR = path.join(process.cwd(), "data");
@@ -51,7 +51,7 @@ const updateSchool = async (domain, school, apps) => {
   const synergyBase = getAppBase(districtApps[domain], "Synergy");
 
   const weather = await loadWeather(forecastBase);
-  const menus = await loadMenus({
+  const meals = await loadMeals({
     districtBase: districtMealBase,
     schoolBase: schoolMealBase,
   });
@@ -59,12 +59,12 @@ const updateSchool = async (domain, school, apps) => {
 
   await writeJson(schoolFile, {
     weather,
-    menus,
+    meals,
     subs,
   });
 
   console.log(
-    `Wrote school data for ${domain}/${school} (${Object.keys(weather).length} weather, ${Object.keys(menus).length} menu items, ${subs.length} subs)`,
+    `Wrote school data for ${domain}/${school} (${Object.keys(weather).length} weather, ${Object.keys(meals).length} meals, ${subs.length} subs)`,
   );
 };
 
