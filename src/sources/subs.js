@@ -6,12 +6,14 @@ const NSD_SUB_UUIDS = {
   "Innovation Lab High School": "0245B0BA-2DFA-45EF-9718-71E95DBE4A24",
   "North Creek High School": "B05F1594-8A33-4601-AF2D-8F17046346FD",
   "Woodinville High School": "1ECEDBF3-F608-46A6-AF21-AAFD1D009073",
+
   "Canyon Park Middle School": "348EF711-785F-49A4-A161-408F3D50B8E6",
   "Kenmore Middle School": "9EBAF662-7D2B-4A5F-BFB9-C7398C6DF814",
   "Leota Middle School": "06AFC143-9890-4364-8AB1-C24A9C5597D1",
   "Northshore Middle School": "F2133E61-0E45-45D3-9519-995A1132E124",
   "Skyview Middle School": "F5B7F38B-E791-431F-8C9B-A90C7011DFFB",
   "Timbercrest Middle School": "A9E30772-C664-4618-B998-71CB566C76D2",
+
   "Arrowhead Elementary": "47D0F9DB-4B79-46A9-9055-22479624D960",
   "Canyon Creek Elementary": "7C7B17E4-A390-46E5-A191-9AF1E39F9005",
   "Cottage Lake Elementary": "1DFE4F7C-8345-40B7-9C68-2BE4D1EC53A2",
@@ -24,6 +26,7 @@ const NSD_SUB_UUIDS = {
   "Kokanee Elementary": "E83A91FA-868D-4555-BC68-31EB6313AB47",
   "Maywood Hills Elementary": "D73211BC-67A4-4A7B-AB4F-F9FFB2E94309",
   "Moorlands Elementary": "30799D74-7DE3-4C53-B5BC-37AF3A6C08E8",
+  "Ruby Bridges Elementary": "F5C386C2-82F5-4443-8B1D-1C1A27639017",
   "Shelton View Elementary": "3C5185E1-245D-4246-AC79-722911C0563F",
   "Sunrise Elementary": "14E8922F-00D1-462B-B78C-8D64440FA5A1",
   "Wellington Elementary": "10565F07-8CF4-4A58-94A5-28C3D0512744",
