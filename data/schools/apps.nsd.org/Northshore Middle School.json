@@ -669,7 +669,7 @@
         ]
       }
     },
-    "Cheese Nachos": {
+    "Cheese Nachos with Refried Beans": {
       "2025-2026 Middle School Lunch": {
         "category": "Specials",
         "days": [
@@ -690,7 +690,9 @@
         "days": [
           "2026-04-01"
         ]
-      },
+      }
+    },
+    "Cheeseburger with Tater Tots": {
       "2025-2026 Middle School Lunch": {
         "category": "Grill",
         "days": [
@@ -842,7 +844,7 @@
         ]
       }
     },
-    "Chicken Tenders with Pretzel Bites": {
+    "Chicken Tenders with Pretzel Bites with Tater Tots": {
       "2025-2026 Middle School Lunch": {
         "category": "Grill",
         "days": [
@@ -1330,7 +1332,7 @@
         ]
       }
     },
-    "Golden Crispy Chicken Burger": {
+    "Golden Crispy Chicken Burger with Tater Tots": {
       "2025-2026 Middle School Lunch": {
         "category": "Grill",
         "days": [
@@ -1576,7 +1578,7 @@
         ]
       }
     },
-    "Meatless Chicken Nugget Chow Mein Noodle Bowl": {
+    "Meatless Chicken Nugget Chow Mein Noodle Bowl with Steamed Broccoli": {
       "2025-2026 Middle School Lunch": {
         "category": "Specials",
         "days": [
@@ -1587,7 +1589,7 @@
         ]
       }
     },
-    "Meatless Chicken Nugget Rice Bowl with Sweet & Sour Sauce": {
+    "Meatless Chicken Nugget Rice Bowl with Sweet & Sour Sauce with Steamed Broccoli": {
       "2025-2026 Middle School Lunch": {
         "category": "Specials",
         "days": [
@@ -1939,7 +1941,7 @@
         ]
       }
     },
-    "Orange Chicken Chow Mein Noodle Bowl": {
+    "Orange Chicken Chow Mein Noodle Bowl with Steamed Broccoli": {
       "2025-2026 Middle School Lunch": {
         "category": "Specials",
         "days": [
@@ -1954,7 +1956,7 @@
         ]
       }
     },
-    "Orange Chicken Rice Bowl": {
+    "Orange Chicken Rice Bowl with Steamed Broccoli": {
       "2025-2026 Middle School Lunch": {
         "category": "Specials",
         "days": [
@@ -2358,21 +2360,6 @@
         ]
       }
     },
-    "Refried Beans": {
-      "2025-2026 Middle School Lunch": {
-        "category": "Specials",
-        "days": [
-          "2026-03-03",
-          "2026-03-10",
-          "2026-03-17",
-          "2026-03-24",
-          "2026-03-31",
-          "2026-04-14",
-          "2026-04-21",
-          "2026-04-28"
-        ]
-      }
-    },
     "Romaine Salad": {
       "2025-2026 Middle School Lunch": {
         "category": "Vegetables",
@@ -2520,7 +2507,7 @@
         ]
       }
     },
-    "Spicy Chicken Burger": {
+    "Spicy Chicken Burger with Tater Tots": {
       "2025-2026 Middle School Lunch": {
         "category": "Grill",
         "days": [
@@ -2592,21 +2579,6 @@
         ]
       }
     },
-    "Steamed Broccoli": {
-      "2025-2026 Middle School Lunch": {
-        "category": "Specials",
-        "days": [
-          "2026-03-05",
-          "2026-03-12",
-          "2026-03-19",
-          "2026-03-26",
-          "2026-04-02",
-          "2026-04-16",
-          "2026-04-23",
-          "2026-04-30"
-        ]
-      }
-    },
     "Strawberries": {
       "2025-2026 Middle School Breakfast": {
         "category": "Fruit",
@@ -2648,52 +2620,6 @@
           "2026-04-03",
           "2026-04-17",
           "2026-04-24"
-        ]
-      }
-    },
-    "Tater Tots": {
-      "2025-2026 Middle School Lunch": {
-        "category": "Grill",
-        "days": [
-          "2026-03-02",
-          "2026-03-03",
-          "2026-03-04",
-          "2026-03-05",
-          "2026-03-06",
-          "2026-03-09",
-          "2026-03-10",
-          "2026-03-11",
-          "2026-03-12",
-          "2026-03-13",
-          "2026-03-16",
-          "2026-03-17",
-          "2026-03-18",
-          "2026-03-19",
-          "2026-03-20",
-          "2026-03-23",
-          "2026-03-24",
-          "2026-03-25",
-          "2026-03-26",
-          "2026-03-27",
-          "2026-03-30",
-          "2026-03-31",
-          "2026-04-01",
-          "2026-04-02",
-          "2026-04-03",
-          "2026-04-13",
-          "2026-04-14",
-          "2026-04-15",
-          "2026-04-16",
-          "2026-04-17",
-          "2026-04-20",
-          "2026-04-21",
-          "2026-04-22",
-          "2026-04-23",
-          "2026-04-24",
-          "2026-04-27",
-          "2026-04-28",
-          "2026-04-29",
-          "2026-04-30"
         ]
       }
     },
@@ -2774,7 +2700,7 @@
         ]
       }
     },
-    "Turkey or Chicken Nachos with Cheese": {
+    "Turkey or Chicken Nachos with Cheese with Refried Beans": {
       "2025-2026 Middle School Lunch": {
         "category": "Specials",
         "days": [
@@ -2830,7 +2756,7 @@
         ]
       }
     },
-    "Vegan Burger": {
+    "Vegan Burger with Tater Tots": {
       "2025-2026 Middle School Lunch": {
         "category": "Grill",
         "days": [
@@ -2853,7 +2779,7 @@
         ]
       }
     },
-    "Vegan Chana Masala with Rice": {
+    "Vegan Chana Masala with Rice with Steamed Broccoli": {
       "2025-2026 Middle School Lunch": {
         "category": "Specials",
         "days": [
@@ -2861,7 +2787,7 @@
         ]
       }
     },
-    "Vegan Chicken Burger": {
+    "Vegan Chicken Burger with Tater Tots": {
       "2025-2026 Middle School Lunch": {
         "category": "Grill",
         "days": [
@@ -2891,7 +2817,7 @@
         ]
       }
     },
-    "Vegan Dal over Rice": {
+    "Vegan Dal over Rice with Steamed Broccoli": {
       "2025-2026 Middle School Lunch": {
         "category": "Specials",
         "days": [
@@ -2911,7 +2837,7 @@
         ]
       }
     },
-    "Vegan Rajma Masala": {
+    "Vegan Rajma Masala with Steamed Broccoli": {
       "2025-2026 Middle School Lunch": {
         "category": "Specials",
         "days": [
@@ -2999,7 +2925,7 @@
         ]
       }
     },
-    "Wild Alaska Fish Burger": {
+    "Wild Alaska Fish Burger with Tater Tots": {
       "2025-2026 Middle School Lunch": {
         "category": "Grill",
         "days": [

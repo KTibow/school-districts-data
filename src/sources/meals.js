@@ -9,6 +9,10 @@ const dedupSort = (arr) => [...new Set(arr)].sort((a, b) => a.localeCompare(b));
 
 const normalizeMeal = (name) => name.trim();
 
+const isAllWithText = (item) =>
+  item.type == "text" &&
+  /^all\s+(served|offered)\s+with$/i.test(item.name.trim());
+
 const normalizeDayListing = (listing) =>
   Object.fromEntries(
     sortedEntries(listing).map(([section, items]) => [
@@ -48,11 +52,47 @@ export const filterMeals = (listing, school) =>
 const parseMenuListing = (setting) => {
   const listing = {};
   let category = "";
+  let categoryRecipes = [];
+  let allWithRecipes = [];
+  let pendingAllWith = false;
+
+  const currentSection = () => category || "Items";
+  const flushCategoryRecipes = () => {
+    const suffix = allWithRecipes.length
+      ? ` with ${allWithRecipes.map((item) => normalizeMeal(item)).join(" and ")}`
+      : "";
+    for (const recipe of categoryRecipes)
+      (listing[currentSection()] ??= []).push(normalizeMeal(recipe) + suffix);
+    categoryRecipes = [];
+    allWithRecipes = [];
+    pendingAllWith = false;
+  };
+
   for (const item of JSON.parse(setting).current_display) {
-    if (item.type == "category") category = item.name;
-    else if (item.type == "recipe")
-      (listing[category || "Items"] ??= []).push(normalizeMeal(item.name));
+    if (item.type == "category") {
+      flushCategoryRecipes();
+      category = item.name;
+      continue;
+    }
+
+    if (item.type != "recipe" && item.type != "text") continue;
+
+    if (item.type != "recipe") {
+      if (isAllWithText(item)) {
+        pendingAllWith = true;
+      }
+      continue;
+    }
+
+    if (pendingAllWith) {
+      allWithRecipes.push(item.name);
+      continue;
+    }
+
+    categoryRecipes.push(item.name);
   }
+
+  flushCategoryRecipes();
   return Object.keys(listing).length ? normalizeDayListing(listing) : undefined;
 };
 
