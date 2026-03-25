@@ -1,13 +1,14 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import { districtApps, districtNews, schoolApps } from "school-districts";
 import { loadDistrictAlerts } from "./sources/flashalert.js";
-import { filterMeals, loadMeals } from "./sources/meals.js";
+import { filterMeals } from "./sources/meals.js";
 import { loadSubs } from "./sources/subs.js";
 import { loadWeather } from "./sources/weather.js";
 
 const DATA_DIR = path.join(process.cwd(), "data");
+const ROOT_MEALS_DIR = path.join(DATA_DIR, "+meals");
 
 const sanitizePathSegment = (value) => value.replaceAll("/", " - ");
 
@@ -18,6 +19,11 @@ const writeJson = async (filePath, data) => {
 
 const getAppBase = (apps, appName) =>
   apps.find((app) => app.app === appName).base;
+
+const loadMasterMealsForDomain = async (domain) => {
+  const mealsFile = path.join(ROOT_MEALS_DIR, `${sanitizePathSegment(domain)}.json`);
+  return JSON.parse(await readFile(mealsFile, "utf8"));
+};
 
 const updateDistrict = async (domain) => {
   const districtFile = path.join(
@@ -75,20 +81,11 @@ for (const domain of Object.keys(schoolApps).sort((a, b) =>
 )) {
   await updateDistrict(domain);
 
-  const [weatherByGridpoint, allMeals] = await Promise.all([
-    loadWeather(
-      Object.values(schoolApps[domain]).map((apps) => getAppBase(apps, "NWS")),
-    ),
-    loadMeals(
-      getAppBase(districtApps[domain], "My School Menus"),
-      Object.fromEntries(
-        Object.entries(schoolApps[domain]).map(([school, apps]) => [
-          school,
-          getAppBase(apps, "My School Menus"),
-        ]),
-      ),
-    ),
-  ]);
+  const allMeals = await loadMasterMealsForDomain(domain);
+
+  const weatherByGridpoint = await loadWeather(
+    Object.values(schoolApps[domain]).map((apps) => getAppBase(apps, "NWS")),
+  );
 
   for (const school of Object.keys(schoolApps[domain]).sort((a, b) =>
     a.localeCompare(b),
