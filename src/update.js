@@ -3,7 +3,7 @@ import path from "node:path";
 
 import { districtApps, districtNews, schoolApps } from "school-districts";
 import { loadDistrictAlerts } from "./sources/flashalert.js";
-import { loadMeals } from "./sources/meals.js";
+import { filterMeals, loadMeals } from "./sources/meals.js";
 import { loadSubs } from "./sources/subs.js";
 import { loadWeather } from "./sources/weather.js";
 
@@ -37,7 +37,13 @@ const updateDistrict = async (domain) => {
   console.log(`Wrote district data for ${domain} (${alerts.length} alerts)`);
 };
 
-const updateSchool = async (domain, school, apps) => {
+const updateSchool = async (
+  domain,
+  school,
+  forecastBase,
+  weatherByGridpoint,
+  allMeals,
+) => {
   const schoolFile = path.join(
     DATA_DIR,
     "schools",
@@ -45,17 +51,13 @@ const updateSchool = async (domain, school, apps) => {
     `${sanitizePathSegment(school)}.json`,
   );
 
-  const forecastBase = getAppBase(apps, "NWS");
-  const districtMealBase = getAppBase(districtApps[domain], "My School Menus");
-  const schoolMealBase = getAppBase(apps, "My School Menus");
   const synergyBase = getAppBase(districtApps[domain], "Synergy");
+  const weather = weatherByGridpoint[forecastBase];
+  if (weather == undefined)
+    throw new Error(`Missing weather for ${school} (${forecastBase})`);
 
-  const weather = await loadWeather(forecastBase);
-  const meals = await loadMeals({
-    districtBase: districtMealBase,
-    schoolBase: schoolMealBase,
-  });
   const subs = await loadSubs({ synergyBase, school });
+  const meals = filterMeals(allMeals, school);
 
   await writeJson(schoolFile, {
     weather,
@@ -73,10 +75,31 @@ for (const domain of Object.keys(schoolApps).sort((a, b) =>
 )) {
   await updateDistrict(domain);
 
+  const [weatherByGridpoint, allMeals] = await Promise.all([
+    loadWeather(
+      Object.values(schoolApps[domain]).map((apps) => getAppBase(apps, "NWS")),
+    ),
+    loadMeals(
+      getAppBase(districtApps[domain], "My School Menus"),
+      Object.fromEntries(
+        Object.entries(schoolApps[domain]).map(([school, apps]) => [
+          school,
+          getAppBase(apps, "My School Menus"),
+        ]),
+      ),
+    ),
+  ]);
+
   for (const school of Object.keys(schoolApps[domain]).sort((a, b) =>
     a.localeCompare(b),
   )) {
-    await updateSchool(domain, school, schoolApps[domain][school]);
+    await updateSchool(
+      domain,
+      school,
+      getAppBase(schoolApps[domain][school], "NWS"),
+      weatherByGridpoint,
+      allMeals,
+    );
   }
 }
 

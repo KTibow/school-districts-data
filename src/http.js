@@ -2,6 +2,7 @@ const USER_AGENT =
   "school-districts-data/0.1 (+https://github.com/KTibow/school-districts-data)";
 
 export const fetchResponse = async (url, init = {}) => {
+  console.debug("connecting to", url);
   const headers = new Headers(init.headers);
   headers.set("user-agent", USER_AGENT);
 

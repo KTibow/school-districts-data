@@ -28,17 +28,21 @@ const canonicalizeCategoryName = (value) =>
     .join(" ")
     .replace(/^Special$/, "Specials");
 
-const normalizeItemListing = (listing) =>
+export const filterMeals = (listing, school) =>
   Object.fromEntries(
-    sortedEntries(listing).map(([itemName, menus]) => [
-      itemName,
-      Object.fromEntries(
-        sortedEntries(menus).map(([menuName, entry]) => [
-          menuName,
-          { category: entry.category, days: dedupSort(entry.days) },
-        ]),
-      ),
-    ]),
+    sortedEntries(listing)
+      .map(([itemName, menus]) => [
+        itemName,
+        Object.fromEntries(
+          sortedEntries(menus)
+            .filter(([, entry]) => entry.schoolNames.includes(school))
+            .map(([menuName, entry]) => [
+              menuName,
+              { category: entry.category, days: entry.days },
+            ]),
+        ),
+      ])
+      .filter(([, menus]) => Object.keys(menus).length),
   );
 
 const parseMenuListing = (setting) => {
@@ -62,43 +66,70 @@ const fetchOverwrites = async (url) => {
   return (await response.json()).data;
 };
 
-const processOverwrite = (output, menuName, { day, setting }) => {
-  const listing = parseMenuListing(setting);
-  if (!listing) return;
-  for (const [rawCategory, items] of Object.entries(listing)) {
-    const category = canonicalizeCategoryName(rawCategory);
-    for (const item of items) {
-      const entry = ((output[item] ??= {})[menuName] ??= {
-        category,
-        days: [],
-      });
-      if (entry.category != category)
+const REQUEST_PAUSE = 250;
+export const loadMeals = async (districtBase, schoolBases) => {
+  const menusById = new Map();
+  for (const [school, schoolBase] of sortedEntries(schoolBases)) {
+    await new Promise((r) => setTimeout(r, REQUEST_PAUSE));
+    const { data: menus } = await fetchJson(`${schoolBase}/menus`);
+    for (const { id, name } of menus) {
+      const menu = menusById.get(id) ?? { id, name, schoolNames: [] };
+      if (menu.name != name)
         throw new Error(
-          `Conflicting categories for ${item} in ${menuName}: ${entry.category} vs ${category}`,
+          `Conflicting menu names for menu ${id}: ${menu.name} vs ${name}`,
         );
-      entry.days.push(day);
+      menu.schoolNames.push(school);
+      menusById.set(id, menu);
     }
   }
-};
 
-export const loadMeals = async ({ districtBase, schoolBase }) => {
-  const { data: menus } = await fetchJson(`${schoolBase}/menus`);
   const now = new Date();
-  const output = {};
-  for (const menu of menus) {
-    const { id, name: menuName } = menu;
+  const aggregate = {};
+  for (const menu of menusById.values()) {
     for (const offset of MENU_MONTH_OFFSETS) {
       const d = new Date(
         Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + offset, 1),
       );
-      const url = `${districtBase}/menus/${id}/year/${d.getUTCFullYear()}/month/${d.getUTCMonth() + 1}/date_overwrites`;
-
+      const url = `${districtBase}/menus/${menu.id}/year/${d.getUTCFullYear()}/month/${d.getUTCMonth() + 1}/date_overwrites`;
+      await new Promise((r) => setTimeout(r, REQUEST_PAUSE));
       const overwrites = await fetchOverwrites(url);
       if (!overwrites) continue;
-      for (const overwrite of overwrites) {
-        processOverwrite(output, menuName, overwrite);
+      for (const { day, setting } of overwrites) {
+        const listing = parseMenuListing(setting);
+        if (!listing) continue;
+        for (const [rawCategory, items] of Object.entries(listing)) {
+          const category = canonicalizeCategoryName(rawCategory);
+          for (const item of items) {
+            const entry = ((aggregate[item] ??= {})[menu.name] ??= {
+              schoolNames: new Set(),
+              category,
+              days: new Set(),
+            });
+            if (entry.category != category)
+              throw new Error(
+                `Conflicting categories for ${item} in ${menu.name} (menu ${menu.id}): ${entry.category} vs ${category}`,
+              );
+            for (const s of menu.schoolNames) entry.schoolNames.add(s);
+            entry.days.add(day);
+          }
+        }
       }
     }
   }
-  return normalizeItemListing(output);
+
+  return Object.fromEntries(
+    sortedEntries(aggregate).map(([itemName, menus]) => [
+      itemName,
+      Object.fromEntries(
+        sortedEntries(menus).map(([menuName, entry]) => [
+          menuName,
+          {
+            schoolNames: dedupSort([...entry.schoolNames]),
+            category: entry.category,
+            days: dedupSort([...entry.days]),
+          },
+        ]),
+      ),
+    ]),
+  );
 };

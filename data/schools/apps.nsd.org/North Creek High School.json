@@ -1,6 +1,6 @@
 {
   "weather": {
-    "2026-03-24": "Rain. Mostly cloudy, with a high near 53. Chance of precipitation is 80%. New rainfall amounts between a tenth and quarter of an inch possible.",
+    "2026-03-24": "Rain. Cloudy, with a high near 53. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible.",
     "2026-03-25": "Rain. Mostly cloudy. High near 49, with temperatures falling to around 47 in the afternoon. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
     "2026-03-26": "A chance of rain and snow before 5pm. Mostly sunny, with a high near 51. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
     "2026-03-27": "Mostly sunny, with a high near 56.",
@@ -3196,6 +3196,7 @@
     "Florence Booth",
     "Jason Rukman",
     "Jay Kenyon",
+    "Poonam Ahuja",
     "Shannon Hornoiu",
     "Tim Hagerman"
   ]
