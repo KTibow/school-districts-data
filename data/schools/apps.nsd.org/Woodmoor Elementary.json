@@ -52,7 +52,9 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Elementary School Lunch": {
         "category": "Milk",
@@ -96,7 +98,9 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Breakfast": {
         "category": "Milk",
@@ -131,7 +135,9 @@
           "2026-04-27",
           "2026-04-28",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Milk",
@@ -166,7 +172,9 @@
           "2026-04-27",
           "2026-04-28",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Apple": {
@@ -189,7 +197,9 @@
           "2026-04-23",
           "2026-04-28",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Elementary School Lunch": {
         "category": "Fruit",
@@ -210,7 +220,9 @@
           "2026-04-22",
           "2026-04-27",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Apple Slices": {
@@ -220,7 +232,9 @@
           "2026-03-02",
           "2026-03-23",
           "2026-04-13"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Apple Strudel": {
@@ -231,7 +245,9 @@
           "2026-03-09",
           "2026-03-16",
           "2026-03-23"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Applesauce": {
@@ -245,7 +261,9 @@
           "2026-04-16",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Fruit",
@@ -254,7 +272,9 @@
           "2026-03-16",
           "2026-03-30",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Applesauce Cups, Flavored": {
@@ -273,13 +293,17 @@
           "2026-03-23",
           "2026-03-25",
           "2026-03-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Breakfast": {
         "category": "Fruit",
         "days": [
           "2026-03-19"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Applesauce Cups, Variety": {
@@ -297,7 +321,9 @@
           "2026-04-24",
           "2026-04-27",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Elementary School Lunch": {
         "category": "Fruit",
@@ -305,7 +331,9 @@
           "2026-04-03",
           "2026-04-17",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Assorted Fruit Cup": {
@@ -316,7 +344,9 @@
           "2026-04-16",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Baby Carrots": {
@@ -362,7 +392,9 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Baked BBQ Beans": {
@@ -373,7 +405,9 @@
           "2026-03-10",
           "2026-03-17",
           "2026-03-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Baked Potato with Cheesy Broccoli and Roll": {
@@ -381,7 +415,9 @@
         "category": "B Lunch",
         "days": [
           "2026-03-17"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Banana": {
@@ -389,7 +425,9 @@
         "category": "Fruit",
         "days": [
           "2026-04-16"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Bean and Cheese Burrito": {
@@ -399,14 +437,18 @@
           "2026-03-03",
           "2026-03-24",
           "2026-04-03"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-03-03",
           "2026-03-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Beef Chili & Cornbread": {
@@ -415,14 +457,18 @@
         "days": [
           "2026-03-02",
           "2026-03-23"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-03-02",
           "2026-03-23"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Beef Teriyaki Rice Bowl": {
@@ -430,7 +476,9 @@
         "category": "A Lunch",
         "days": [
           "2026-04-20"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Black Beans": {
@@ -438,7 +486,9 @@
         "category": "Vegetables",
         "days": [
           "2026-04-15"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Blueberries": {
@@ -446,7 +496,9 @@
         "category": "Fruit",
         "days": [
           "2026-04-17"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Blueberry Smoothie": {
@@ -457,7 +509,9 @@
           "2026-03-12",
           "2026-03-19",
           "2026-03-26"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Breakfast Chicken and Waffle": {
@@ -468,7 +522,9 @@
           "2026-03-12",
           "2026-03-19",
           "2026-03-26"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Breakfast Pizza": {
@@ -483,7 +539,9 @@
           "2026-04-13",
           "2026-04-20",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Breakfast Stack Pack": {
@@ -498,7 +556,9 @@
           "2026-04-13",
           "2026-04-20",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Broccoli": {
@@ -513,14 +573,18 @@
           "2026-04-20",
           "2026-04-24",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Vegetables",
         "days": [
           "2026-04-03",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Broccoli Salad": {
@@ -530,7 +594,9 @@
           "2026-03-02",
           "2026-03-09",
           "2026-03-23"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Canned Diced Peaches": {
@@ -541,7 +607,9 @@
           "2026-04-13",
           "2026-04-20",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Breakfast": {
         "category": "Fruit",
@@ -554,13 +622,17 @@
           "2026-04-14",
           "2026-04-21",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Fruit",
         "days": [
           "2026-03-19"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Canned Diced Pears": {
@@ -578,7 +650,9 @@
           "2026-04-14",
           "2026-04-21",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Canned Pears": {
@@ -589,7 +663,9 @@
           "2026-03-10",
           "2026-03-17",
           "2026-03-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Breakfast": {
         "category": "Fruit",
@@ -602,7 +678,9 @@
           "2026-04-13",
           "2026-04-20",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Cereal Variety": {
@@ -648,7 +726,9 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Cheerios Cereal": {
@@ -661,7 +741,9 @@
           "2026-04-03",
           "2026-04-17",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Cheese Nachos": {
@@ -676,7 +758,9 @@
           "2026-04-15",
           "2026-04-22",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Cheese Stuffed Breadsticks": {
@@ -684,7 +768,9 @@
         "category": "Lunch Entree",
         "days": [
           "2026-03-16"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Cheese Wedge Pizza": {
@@ -699,14 +785,18 @@
           "2026-04-13",
           "2026-04-20",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-03-09",
           "2026-04-20"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Cheeseburger": {
@@ -718,14 +808,18 @@
           "2026-03-26",
           "2026-04-16",
           "2026-04-23"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-03-05",
           "2026-04-16"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Cheesy Rippable Breadstick with Marinara Sauce": {
@@ -733,13 +827,17 @@
         "category": "B Lunch",
         "days": [
           "2026-04-21"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-04-21"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Chicken Bánh Mì with Pickled Veggies": {
@@ -747,7 +845,9 @@
         "category": "A Lunch",
         "days": [
           "2026-03-10"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Chicken Bites and Waffles": {
@@ -756,10 +856,12 @@
         "days": [
           "2026-03-17",
           "2026-04-21"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
-    "Chicken Caesar Salad with a Roll": {
+    "Chicken Caesar Salad with Roll": {
       "2025-2026 Elementary School Lunch": {
         "category": "C Lunch",
         "days": [
@@ -767,7 +869,9 @@
           "2026-04-14",
           "2026-04-21",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Chicken Nuggets with Rice": {
@@ -776,7 +880,9 @@
         "days": [
           "2026-03-03",
           "2026-03-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Chicken Nuggets with Rice and Korean BBQ Sauce": {
@@ -784,13 +890,17 @@
         "category": "A Lunch",
         "days": [
           "2026-04-13"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-04-13"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Chicken Nuggets with Waffle": {
@@ -798,7 +908,9 @@
         "category": "Lunch Entree",
         "days": [
           "2026-03-17"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Chicken Rice Soup with Roll": {
@@ -806,7 +918,9 @@
         "category": "A Lunch",
         "days": [
           "2026-03-09"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Coleslaw": {
@@ -817,7 +931,9 @@
           "2026-03-13",
           "2026-03-20",
           "2026-03-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Corn": {
@@ -829,7 +945,9 @@
           "2026-03-17",
           "2026-03-24",
           "2026-04-13"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Vegetables",
@@ -837,7 +955,9 @@
           "2026-03-02",
           "2026-03-23",
           "2026-04-13"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Corn & Bean Salad": {
@@ -848,7 +968,9 @@
           "2026-04-15",
           "2026-04-22",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Cucumbers": {
@@ -862,14 +984,18 @@
           "2026-03-31",
           "2026-04-21",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Vegetables",
         "days": [
           "2026-03-17",
           "2026-04-20"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Dutch Waffle and Scrambled Eggs": {
@@ -877,7 +1003,9 @@
         "category": "A Lunch",
         "days": [
           "2026-04-14"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Edamame": {
@@ -887,7 +1015,9 @@
           "2026-04-03",
           "2026-04-17",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Egg & Cheese Breakfast Bun": {
@@ -901,7 +1031,9 @@
           "2026-04-03",
           "2026-04-17",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Egg & Waffle Sandwich": {
@@ -912,7 +1044,9 @@
           "2026-04-15",
           "2026-04-22",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Fasting Breakfast Pack K-12": {
@@ -933,7 +1067,9 @@
           "2026-03-17",
           "2026-03-18",
           "2026-03-19"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Fasting Lunch Pack K-8": {
@@ -954,7 +1090,9 @@
           "2026-03-17",
           "2026-03-18",
           "2026-03-19"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Feijoada with Brown Rice": {
@@ -962,7 +1100,9 @@
         "category": "A Lunch",
         "days": [
           "2026-03-13"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "French Toast Sandwich with Turkey Ham and Cheese": {
@@ -977,7 +1117,9 @@
           "2026-04-14",
           "2026-04-21",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Fresh Tomatoes": {
@@ -994,7 +1136,9 @@
           "2026-04-27",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Frozen Blackberries": {
@@ -1002,7 +1146,9 @@
         "category": "Fruit",
         "days": [
           "2026-04-03"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Frozen Fruit Slushie Cup": {
@@ -1017,13 +1163,17 @@
           "2026-04-14",
           "2026-04-21",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Fruit",
         "days": [
           "2026-04-20"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Frozen Washington Raspberries": {
@@ -1031,7 +1181,9 @@
         "category": "Fruit",
         "days": [
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Golden Crispy Chicken Burger": {
@@ -1041,7 +1193,9 @@
           "2026-03-12",
           "2026-04-02",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
@@ -1049,7 +1203,9 @@
           "2026-03-12",
           "2026-04-02",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Green Beans": {
@@ -1060,14 +1216,18 @@
           "2026-03-09",
           "2026-03-16",
           "2026-03-23"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Vegetables",
         "days": [
           "2026-03-06",
           "2026-03-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Green Peas": {
@@ -1087,7 +1247,9 @@
           "2026-04-16",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Vegetables",
@@ -1095,15 +1257,19 @@
           "2026-03-09",
           "2026-03-30",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
-    "Ham and Cheese Ripper": {
+    "Ham and Cheesy Breadstick": {
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-04-03"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Homemade Cheese Quesadilla": {
@@ -1114,7 +1280,9 @@
           "2026-03-11",
           "2026-03-18",
           "2026-03-25"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Juicy Kiwifruit": {
@@ -1124,7 +1292,9 @@
           "2026-04-02",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Ketchup": {
@@ -1146,7 +1316,9 @@
           "2026-04-21",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Misc.",
@@ -1163,7 +1335,9 @@
           "2026-04-23",
           "2026-04-28",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Macaroni and Cheese": {
@@ -1173,14 +1347,18 @@
           "2026-03-06",
           "2026-03-27",
           "2026-04-17"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-03-06",
           "2026-03-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Marinara Sauce Cups": {
@@ -1188,7 +1366,9 @@
         "category": "Vegetables",
         "days": [
           "2026-03-16"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Mayonnaise": {
@@ -1211,7 +1391,9 @@
           "2026-04-23",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Mini Cheese Calzone with Marinara Cups": {
@@ -1221,7 +1403,9 @@
           "2026-03-10",
           "2026-03-31",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
@@ -1229,7 +1413,9 @@
           "2026-03-10",
           "2026-03-31",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Mini Cinnamon Rolls": {
@@ -1243,7 +1429,9 @@
           "2026-04-03",
           "2026-04-17",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Mini French Toast": {
@@ -1258,7 +1446,9 @@
           "2026-04-16",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Mini Maple Chip Pancakes": {
@@ -1273,7 +1463,9 @@
           "2026-04-14",
           "2026-04-21",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Breakfast": {
         "category": "Breakfast Entree",
@@ -1286,7 +1478,9 @@
           "2026-04-14",
           "2026-04-21",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Mustard": {
@@ -1309,7 +1503,9 @@
           "2026-04-23",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Non Fat White Milk": {
@@ -1355,7 +1551,9 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Elementary School Lunch": {
         "category": "Milk",
@@ -1399,7 +1597,9 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Orange Chicken Rice Bowl": {
@@ -1408,13 +1608,17 @@
         "days": [
           "2026-03-20",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Orange Wedges": {
@@ -1444,7 +1648,9 @@
           "2026-04-24",
           "2026-04-27",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Elementary School Lunch": {
         "category": "Fruit",
@@ -1464,7 +1670,9 @@
           "2026-04-23",
           "2026-04-28",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Oranges": {
@@ -1477,7 +1685,9 @@
           "2026-04-03",
           "2026-04-17",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Pasta with Meat Sauce": {
@@ -1486,14 +1696,18 @@
         "days": [
           "2026-03-30",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-03-30",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Peach Cup": {
@@ -1504,7 +1718,9 @@
           "2026-03-12",
           "2026-03-19",
           "2026-03-26"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Elementary School Lunch": {
         "category": "Fruit",
@@ -1513,7 +1729,9 @@
           "2026-03-13",
           "2026-03-20",
           "2026-03-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Pickled Onions": {
@@ -1521,7 +1739,9 @@
         "category": "Vegetables",
         "days": [
           "2026-04-15"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Pizza Stack Pack (Turkey)": {
@@ -1536,7 +1756,9 @@
           "2026-04-17",
           "2026-04-20",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "PNW Raspberry or Blackberry Yogurt Parfait with Mini Muffin": {
@@ -1545,7 +1767,9 @@
         "days": [
           "2026-03-31",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Pretzel with String Cheese and Honey Mustard Dipping Sauce": {
@@ -1553,7 +1777,9 @@
         "category": "B Lunch",
         "days": [
           "2026-04-14"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Pumpkin Bread": {
@@ -1564,7 +1790,9 @@
           "2026-03-11",
           "2026-03-18",
           "2026-03-25"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Raisins": {
@@ -1579,13 +1807,17 @@
           "2026-04-14",
           "2026-04-21",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Elementary School Lunch": {
         "category": "Fruit",
         "days": [
           "2026-03-12"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Breakfast": {
         "category": "Fruit",
@@ -1596,7 +1828,9 @@
           "2026-04-03",
           "2026-04-17",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Ranch Dressing": {
@@ -1642,7 +1876,9 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Misc.",
@@ -1652,7 +1888,9 @@
           "2026-04-03",
           "2026-04-14",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Raspberry Smoothie": {
@@ -1663,7 +1901,9 @@
           "2026-04-16",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Salad Mix": {
@@ -1679,13 +1919,17 @@
           "2026-04-21",
           "2026-04-27",
           "2026-04-28"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Vegetables",
         "days": [
           "2026-04-14"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Salsa": {
@@ -1702,14 +1946,18 @@
           "2026-04-15",
           "2026-04-22",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Vegetables",
         "days": [
           "2026-03-03",
           "2026-03-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Shredded Lettuce": {
@@ -1730,7 +1978,9 @@
           "2026-04-24",
           "2026-04-29",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Sliced Banana": {
@@ -1738,7 +1988,9 @@
         "category": "Fruit",
         "days": [
           "2026-04-16"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Sliced Bread Variety": {
@@ -1749,7 +2001,9 @@
           "2026-04-15",
           "2026-04-22",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Sliced Red Onion": {
@@ -1769,7 +2023,9 @@
           "2026-04-23",
           "2026-04-28",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Sour Cream": {
@@ -1786,14 +2042,18 @@
           "2026-04-15",
           "2026-04-22",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Misc.",
         "days": [
           "2026-03-03",
           "2026-03-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Southwest Chicken Salad with BBQ Ranch Dressing": {
@@ -1804,7 +2064,9 @@
           "2026-03-10",
           "2026-03-17",
           "2026-03-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Steamed Broccoli": {
@@ -1813,7 +2075,9 @@
         "days": [
           "2026-03-20",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Sunbutter Sandwich": {
@@ -1828,7 +2092,9 @@
           "2026-04-16",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Sweet Apple Topping": {
@@ -1839,7 +2105,9 @@
           "2026-03-11",
           "2026-03-18",
           "2026-03-25"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Tartar Sauce": {
@@ -1848,13 +2116,17 @@
         "days": [
           "2026-03-13",
           "2026-03-20"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Misc.",
         "days": [
           "2026-04-23"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Tater Tots": {
@@ -1869,7 +2141,9 @@
           "2026-04-16",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Vegetables",
@@ -1882,7 +2156,9 @@
           "2026-04-16",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Tomato Soup with Cheese Pizza Quesadilla": {
@@ -1890,7 +2166,9 @@
         "category": "A Lunch",
         "days": [
           "2026-03-16"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Turkey and Cheese Hoagie Sandwich": {
@@ -1905,7 +2183,9 @@
           "2026-04-15",
           "2026-04-22",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Turkey Cheese Nachos": {
@@ -1920,7 +2200,9 @@
           "2026-04-15",
           "2026-04-22",
           "2026-04-29"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Turkey Ham & Cheese on Hawaiian Bun": {
@@ -1931,7 +2213,9 @@
           "2026-04-16",
           "2026-04-23",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Vegan BBQ Lentil Sloppy Joe Sandwich": {
@@ -1940,7 +2224,9 @@
         "days": [
           "2026-03-06",
           "2026-03-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Vegan BBQ Lentil Sloppy Joe Sandwich with Fingerling Potatoes": {
@@ -1948,13 +2234,17 @@
         "category": "B Lunch",
         "days": [
           "2026-04-17"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-04-17"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Vegan Burger": {
@@ -1964,7 +2254,9 @@
           "2026-03-12",
           "2026-04-02",
           "2026-04-30"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Vegan Chicken Burger": {
@@ -1975,13 +2267,17 @@
           "2026-03-19",
           "2026-03-26",
           "2026-04-16"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-03-19"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Waffles and Scrambled Eggs": {
@@ -1989,7 +2285,9 @@
         "category": "Lunch Entree",
         "days": [
           "2026-04-14"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Wild Alaska Fish & Chips": {
@@ -1997,7 +2295,9 @@
         "category": "Lunch Entree",
         "days": [
           "2026-03-13"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Wild Alaska Fish & Chips with Roll": {
@@ -2007,7 +2307,9 @@
           "2026-03-13",
           "2026-03-20",
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Wild Alaska Fish Burger": {
@@ -2015,13 +2317,17 @@
         "category": "B Lunch",
         "days": [
           "2026-04-23"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       },
       "2025-2026 Pre-K Lunch": {
         "category": "Lunch Entree",
         "days": [
           "2026-04-23"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Wild Coho Salmon with Rice Pilaf": {
@@ -2029,7 +2335,9 @@
         "category": "A Lunch",
         "days": [
           "2026-04-03"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Yogurt Dippers": {
@@ -2040,7 +2348,9 @@
           "2026-04-13",
           "2026-04-20",
           "2026-04-27"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Yogurt Lunch with Mini Confetti Pancakes": {
@@ -2048,7 +2358,9 @@
         "category": "C Lunch",
         "days": [
           "2026-04-24"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": false
       }
     },
     "Yogurt Lunch with Mini French Toast": {
@@ -2058,7 +2370,9 @@
           "2026-03-06",
           "2026-03-27",
           "2026-04-13"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Yogurt Lunch with Mini Waffles": {
@@ -2066,7 +2380,9 @@
         "category": "C Lunch",
         "days": [
           "2026-03-20"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     },
     "Yogurt Lunch with Puffed Pancake Bites": {
@@ -2075,7 +2391,9 @@
         "days": [
           "2026-03-13",
           "2026-04-03"
-        ]
+        ],
+        "servedWith": {},
+        "hasImage": true
       }
     }
   },
