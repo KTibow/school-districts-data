@@ -4390,6 +4390,47 @@
       ]
     }
   },
+  "Chicken (Meatless) Buffalo Totchos with Garlic Bread": {
+    "2025-2026 Middle School Lunch": {
+      "schoolNames": [
+        "Canyon Park Middle School",
+        "Kenmore Middle School",
+        "Leota Middle School",
+        "Northshore Middle School",
+        "Skyview Middle School",
+        "Timbercrest Middle School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-04-01",
+        "2026-04-29"
+      ]
+    },
+    "2025-2026 SAS and ILAB Lunch": {
+      "schoolNames": [
+        "Innovation Lab High School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-04-29"
+      ]
+    }
+  },
+  "Chicken (Meatless) Buffalo Totchos with Roll": {
+    "2025-2026 High School Lunch": {
+      "schoolNames": [
+        "Bothell High School",
+        "Inglemoor High School",
+        "North Creek High School",
+        "Woodinville High School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-04-01",
+        "2026-04-29"
+      ]
+    }
+  },
   "Chicken and Waffles": {
     "2025-2026 High School Lunch": {
       "schoolNames": [
@@ -4530,7 +4571,7 @@
       ]
     }
   },
-  "Chicken Caesar Salad with a Roll": {
+  "Chicken Caesar Salad with Roll": {
     "2025-2026 Elementary School Lunch": {
       "schoolNames": [
         "Arrowhead Elementary",
@@ -4561,9 +4602,7 @@
         "2026-04-21",
         "2026-04-28"
       ]
-    }
-  },
-  "Chicken Caesar Salad with Roll": {
+    },
     "2025-2026 High School Lunch": {
       "schoolNames": [
         "Bothell High School",
@@ -4864,6 +4903,130 @@
       "category": "Specials",
       "days": [
         "2026-03-04"
+      ]
+    }
+  },
+  "Chicken Nugget (Meatless) Chow Mein Noodle Bowl with Steamed Broccoli": {
+    "2025-2026 High School Lunch": {
+      "schoolNames": [
+        "Bothell High School",
+        "Inglemoor High School",
+        "North Creek High School",
+        "Woodinville High School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-03-05",
+        "2026-03-12",
+        "2026-03-19",
+        "2026-03-26"
+      ]
+    },
+    "2025-2026 Middle School Lunch": {
+      "schoolNames": [
+        "Canyon Park Middle School",
+        "Kenmore Middle School",
+        "Leota Middle School",
+        "Northshore Middle School",
+        "Skyview Middle School",
+        "Timbercrest Middle School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-03-05",
+        "2026-03-12",
+        "2026-03-19",
+        "2026-03-26"
+      ]
+    }
+  },
+  "Chicken Nugget (Meatless) Rice Bowl with Sweet & Sour Sauce with Steamed Broccoli": {
+    "2025-2026 High School Lunch": {
+      "schoolNames": [
+        "Bothell High School",
+        "Inglemoor High School",
+        "North Creek High School",
+        "Woodinville High School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-03-05",
+        "2026-03-12",
+        "2026-03-19",
+        "2026-03-26"
+      ]
+    },
+    "2025-2026 Middle School Lunch": {
+      "schoolNames": [
+        "Canyon Park Middle School",
+        "Kenmore Middle School",
+        "Leota Middle School",
+        "Northshore Middle School",
+        "Skyview Middle School",
+        "Timbercrest Middle School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-03-05",
+        "2026-03-12",
+        "2026-03-19",
+        "2026-03-26"
+      ]
+    }
+  },
+  "Chicken Nuggets (Meatless) and Fried Rice": {
+    "2025-2026 High School Lunch": {
+      "schoolNames": [
+        "Bothell High School",
+        "Inglemoor High School",
+        "North Creek High School",
+        "Woodinville High School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-03-20"
+      ]
+    },
+    "2025-2026 Middle School Lunch": {
+      "schoolNames": [
+        "Canyon Park Middle School",
+        "Kenmore Middle School",
+        "Leota Middle School",
+        "Northshore Middle School",
+        "Skyview Middle School",
+        "Timbercrest Middle School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-03-20"
+      ]
+    }
+  },
+  "Chicken Nuggets (Meatless) with Waffles": {
+    "2025-2026 High School Lunch": {
+      "schoolNames": [
+        "Bothell High School",
+        "Inglemoor High School",
+        "North Creek High School",
+        "Woodinville High School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-03-16"
+      ]
+    },
+    "2025-2026 Middle School Lunch": {
+      "schoolNames": [
+        "Canyon Park Middle School",
+        "Kenmore Middle School",
+        "Leota Middle School",
+        "Northshore Middle School",
+        "Skyview Middle School",
+        "Timbercrest Middle School"
+      ],
+      "category": "Specials",
+      "days": [
+        "2026-03-16"
       ]
     }
   },
@@ -7726,7 +7889,7 @@
       ]
     }
   },
-  "Ham and Cheese Ripper": {
+  "Ham and Cheesy Breadstick": {
     "2025-2026 Pre-K Lunch": {
       "schoolNames": [
         "Westhill Elementary",
@@ -8438,7 +8601,7 @@
       ]
     }
   },
-  "Local Salmon Chowder with Dinner Roll": {
+  "Local Salmon Chowder with Roll": {
     "2025-2026 High School Lunch": {
       "schoolNames": [
         "Bothell High School",
@@ -8602,171 +8765,6 @@
         "2026-04-23",
         "2026-04-29",
         "2026-04-30"
-      ]
-    }
-  },
-  "Meatless Chicken Buffalo Totchos with Garlic Bread": {
-    "2025-2026 Middle School Lunch": {
-      "schoolNames": [
-        "Canyon Park Middle School",
-        "Kenmore Middle School",
-        "Leota Middle School",
-        "Northshore Middle School",
-        "Skyview Middle School",
-        "Timbercrest Middle School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-04-01",
-        "2026-04-29"
-      ]
-    },
-    "2025-2026 SAS and ILAB Lunch": {
-      "schoolNames": [
-        "Innovation Lab High School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-04-29"
-      ]
-    }
-  },
-  "Meatless Chicken Buffalo Totchos with Roll": {
-    "2025-2026 High School Lunch": {
-      "schoolNames": [
-        "Bothell High School",
-        "Inglemoor High School",
-        "North Creek High School",
-        "Woodinville High School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-04-01",
-        "2026-04-29"
-      ]
-    }
-  },
-  "Meatless Chicken Nugget Chow Mein Noodle Bowl with Steamed Broccoli": {
-    "2025-2026 High School Lunch": {
-      "schoolNames": [
-        "Bothell High School",
-        "Inglemoor High School",
-        "North Creek High School",
-        "Woodinville High School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-03-05",
-        "2026-03-12",
-        "2026-03-19",
-        "2026-03-26"
-      ]
-    },
-    "2025-2026 Middle School Lunch": {
-      "schoolNames": [
-        "Canyon Park Middle School",
-        "Kenmore Middle School",
-        "Leota Middle School",
-        "Northshore Middle School",
-        "Skyview Middle School",
-        "Timbercrest Middle School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-03-05",
-        "2026-03-12",
-        "2026-03-19",
-        "2026-03-26"
-      ]
-    }
-  },
-  "Meatless Chicken Nugget Rice Bowl with Sweet & Sour Sauce with Steamed Broccoli": {
-    "2025-2026 High School Lunch": {
-      "schoolNames": [
-        "Bothell High School",
-        "Inglemoor High School",
-        "North Creek High School",
-        "Woodinville High School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-03-05",
-        "2026-03-12",
-        "2026-03-19",
-        "2026-03-26"
-      ]
-    },
-    "2025-2026 Middle School Lunch": {
-      "schoolNames": [
-        "Canyon Park Middle School",
-        "Kenmore Middle School",
-        "Leota Middle School",
-        "Northshore Middle School",
-        "Skyview Middle School",
-        "Timbercrest Middle School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-03-05",
-        "2026-03-12",
-        "2026-03-19",
-        "2026-03-26"
-      ]
-    }
-  },
-  "Meatless Chicken Nuggets and Fried Rice": {
-    "2025-2026 High School Lunch": {
-      "schoolNames": [
-        "Bothell High School",
-        "Inglemoor High School",
-        "North Creek High School",
-        "Woodinville High School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-03-20"
-      ]
-    },
-    "2025-2026 Middle School Lunch": {
-      "schoolNames": [
-        "Canyon Park Middle School",
-        "Kenmore Middle School",
-        "Leota Middle School",
-        "Northshore Middle School",
-        "Skyview Middle School",
-        "Timbercrest Middle School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-03-20"
-      ]
-    }
-  },
-  "Meatless Chicken Nuggets with Waffles": {
-    "2025-2026 High School Lunch": {
-      "schoolNames": [
-        "Bothell High School",
-        "Inglemoor High School",
-        "North Creek High School",
-        "Woodinville High School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-03-16"
-      ]
-    },
-    "2025-2026 Middle School Lunch": {
-      "schoolNames": [
-        "Canyon Park Middle School",
-        "Kenmore Middle School",
-        "Leota Middle School",
-        "Northshore Middle School",
-        "Skyview Middle School",
-        "Timbercrest Middle School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-03-16"
       ]
     }
   },
@@ -11339,7 +11337,7 @@
       ]
     }
   },
-  "Potato Soup with Cheese Ripper": {
+  "Potato Soup with Cheesy Breadstick": {
     "2025-2026 High School Lunch": {
       "schoolNames": [
         "Bothell High School",
@@ -13668,7 +13666,7 @@
       ]
     }
   },
-  "Tomato Soup with Cheezy Breadstick": {
+  "Tomato Soup with Cheesy Breadstick": {
     "2025-2026 High School Lunch": {
       "schoolNames": [
         "Bothell High School",
@@ -14158,7 +14156,7 @@
       ]
     }
   },
-  "Turkey or Chicken Nachos with Cheese": {
+  "Turkey or Chicken Cheese Nachos": {
     "2025-2026 SAS and ILAB Lunch": {
       "schoolNames": [
         "Innovation Lab High School"
@@ -14169,7 +14167,7 @@
       ]
     }
   },
-  "Turkey or Chicken Nachos with Cheese with Refried Beans": {
+  "Turkey or Chicken Cheese Nachos with Refried Beans": {
     "2025-2026 High School Lunch": {
       "schoolNames": [
         "Bothell High School",

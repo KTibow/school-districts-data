@@ -17,7 +17,21 @@ const dedupSort = (arr) => [...new Set(arr)].sort((a, b) => a.localeCompare(b));
 
 const sanitizePathSegment = (value) => value.replaceAll("/", " - ");
 
-const normalizeMeal = (name) => name.trim().replace(/\s+/g, " ");
+const normalizeMeal = (name) => {
+  let normalized = name.trim().replace(/\s+/g, " ");
+
+  normalized = normalized
+    .replace(/\bCheezy Breadstick\b/g, "Cheesy Breadstick")
+    .replace(/\bCheese Ripper\b/g, "Cheesy Breadstick")
+    .replace(/\bDinner Roll\b/g, "Roll")
+    .replace(/\ba Roll\b/g, "Roll")
+    .replace(/\bNachos with Cheese\b/g, "Cheese Nachos")
+    .replace(/\bMeatless Chicken Nuggets\b/g, "Chicken Nuggets (Meatless)")
+    .replace(/\bMeatless Chicken Nugget\b/g, "Chicken Nugget (Meatless)")
+    .replace(/\bMeatless Chicken\b/g, "Chicken (Meatless)");
+
+  return normalized;
+};
 
 const isAllWithText = (item) =>
   item.type == "text" &&
