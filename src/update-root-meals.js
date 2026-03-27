@@ -37,17 +37,19 @@ const isAllWithText = (item) =>
   item.type == "text" &&
   /^all\s+(served|offered)\s+with$/i.test(item.name.trim());
 
-const dedupMealEntries = (entries) => [
-  ...new Map(
-    entries.map((entry) => [
-      JSON.stringify([entry.name, entry.servedWith]),
-      entry,
-    ]),
-  ).values(),
-].sort((a, b) =>
-  a.name.localeCompare(b.name) ||
-  JSON.stringify(a.servedWith).localeCompare(JSON.stringify(b.servedWith)),
-);
+const dedupMealEntries = (entries) =>
+  [
+    ...new Map(
+      entries.map((entry) => [
+        JSON.stringify([entry.name, entry.servedWith]),
+        entry,
+      ]),
+    ).values(),
+  ].sort(
+    (a, b) =>
+      a.name.localeCompare(b.name) ||
+      JSON.stringify(a.servedWith).localeCompare(JSON.stringify(b.servedWith)),
+  );
 
 const normalizeDayListing = (listing) =>
   Object.fromEntries(
@@ -88,7 +90,7 @@ const parseMenuListing = (setting) => {
     for (const recipe of categoryRecipes)
       (listing[currentSection()] ??= []).push({
         name: normalizeMeal(recipe),
-        servedWith: allWith,
+        ...(allWith ? { servedWith: allWith } : {}),
       });
     categoryRecipes = [];
     allWith = "";
@@ -113,7 +115,9 @@ const parseMenuListing = (setting) => {
 
     if (pendingAllWith) {
       if (allWith)
-        throw new Error(`Multiple all-with items for ${currentSection()}: ${allWith} vs ${item.name}`);
+        throw new Error(
+          `Multiple all-with items for ${currentSection()}: ${allWith} vs ${item.name}`,
+        );
       allWith = normalizeMeal(item.name);
       continue;
     }
@@ -172,19 +176,24 @@ const loadMeals = async (districtBase, schoolBases) => {
               schoolNames: new Set(),
               category,
               days: new Set(),
-              servedWith: {},
             });
             if (entry.category != category)
               throw new Error(
                 `Conflicting categories for ${item.name} in ${menu.name} (menu ${menu.id}): ${entry.category} vs ${category}`,
               );
-            if (day in entry.servedWith && entry.servedWith[day] != item.servedWith)
-              throw new Error(
-                `Conflicting servedWith values for ${item.name} in ${menu.name} on ${day}: ${entry.servedWith[day]} vs ${item.servedWith}`,
+            if (
+              entry.servedWith &&
+              item.servedWith &&
+              entry.servedWith != item.servedWith
+            ) {
+              console.warn(
+                `Conflicting servedWith values for ${item.name} in ${menu.name}: ${entry.servedWith} vs ${item.servedWith}`,
               );
+            }
             for (const s of menu.schoolNames) entry.schoolNames.add(s);
             entry.days.add(day);
-            if (item.servedWith) entry.servedWith[day] = item.servedWith;
+            if (item.servedWith && !entry.servedWith)
+              entry.servedWith = item.servedWith;
           }
         }
       }
@@ -201,7 +210,7 @@ const loadMeals = async (districtBase, schoolBases) => {
             schoolNames: dedupSort([...entry.schoolNames]),
             category: entry.category,
             days: dedupSort([...entry.days]),
-            servedWith: Object.fromEntries(sortedEntries(entry.servedWith)),
+            ...(entry.servedWith ? { servedWith: entry.servedWith } : {}),
           },
         ]),
       ),
