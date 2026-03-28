@@ -1,12 +1,12 @@
 {
   "weather": {
-    "2026-03-27": "Partly sunny, with a high near 55.",
     "2026-03-28": "Patchy fog before 8am. Partly sunny. High near 55, with temperatures falling to around 53 in the afternoon.",
     "2026-03-29": "Rain and snow likely. Mostly cloudy, with a high near 50. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible.",
     "2026-03-30": "Mostly sunny, with a high near 50.",
     "2026-03-31": "A slight chance of rain after 5pm. Mostly cloudy, with a high near 53.",
     "2026-04-01": "Rain. Mostly cloudy, with a high near 49.",
-    "2026-04-02": "Rain likely. Mostly cloudy, with a high near 50."
+    "2026-04-02": "Rain likely. Mostly cloudy, with a high near 50.",
+    "2026-04-03": "A chance of rain. Partly sunny, with a high near 54."
   },
   "meals": {
     "1% White Milk": {
@@ -3132,6 +3132,7 @@
   },
   "mealsWithImages": [
     "Baked Potato with Cheesy Broccoli and Roll",
+    "BBQ Chicken Pizza",
     "Bean and Cheese Burrito with Cheese Sauce and Veggies",
     "Beef Chili with Cornbread",
     "Black Bean and Cheese Empanada",
