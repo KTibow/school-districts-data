@@ -1998,14 +1998,6 @@
         ]
       }
     },
-    "Pasta with Meat Sauce": {
-      "2025-2026 High School Lunch": {
-        "category": "Specials",
-        "days": [
-          "2026-04-22"
-        ]
-      }
-    },
     "Peach Cup": {
       "2025-2026 High School Breakfast": {
         "category": "Fruit",
@@ -2077,14 +2069,6 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30"
-        ]
-      }
-    },
-    "Penne Pasta with Marinara and Cheese": {
-      "2025-2026 High School Lunch": {
-        "category": "Specials",
-        "days": [
-          "2026-04-22"
         ]
       }
     },
@@ -2199,7 +2183,6 @@
           "2026-04-17",
           "2026-04-20",
           "2026-04-21",
-          "2026-04-22",
           "2026-04-23",
           "2026-04-24",
           "2026-04-27",
@@ -2666,8 +2649,7 @@
         "category": "Specials",
         "days": [
           "2026-03-02",
-          "2026-03-23",
-          "2026-04-20"
+          "2026-03-23"
         ]
       }
     },
@@ -3060,14 +3042,6 @@
         "category": "Specials",
         "days": [
           "2026-04-03"
-        ]
-      }
-    },
-    "Wild Coho Salmon with Rice Pilaf": {
-      "2025-2026 High School Lunch": {
-        "category": "Specials",
-        "days": [
-          "2026-04-20"
         ]
       }
     },

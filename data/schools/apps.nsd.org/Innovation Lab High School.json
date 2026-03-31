@@ -1518,14 +1518,6 @@
         ]
       }
     },
-    "Pasta with Meat Sauce": {
-      "2025-2026 SAS and ILAB Lunch": {
-        "category": "Specials",
-        "days": [
-          "2026-04-22"
-        ]
-      }
-    },
     "Peach Cup": {
       "2025-2026 SAS and ILAB Lunch": {
         "category": "Fruit",
@@ -1874,8 +1866,7 @@
       "2025-2026 SAS and ILAB Lunch": {
         "category": "Specials",
         "days": [
-          "2026-03-23",
-          "2026-04-20"
+          "2026-03-23"
         ]
       }
     },

@@ -1988,14 +1988,6 @@
         ]
       }
     },
-    "Pasta with Meat Sauce": {
-      "2025-2026 Middle School Lunch": {
-        "category": "Specials",
-        "days": [
-          "2026-04-22"
-        ]
-      }
-    },
     "Peach Cup": {
       "2025-2026 Middle School Breakfast": {
         "category": "Fruit",
@@ -2067,14 +2059,6 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30"
-        ]
-      }
-    },
-    "Penne Pasta with Marinara and Cheese": {
-      "2025-2026 Middle School Lunch": {
-        "category": "Specials",
-        "days": [
-          "2026-04-22"
         ]
       }
     },
@@ -2644,8 +2628,7 @@
         "category": "Specials",
         "days": [
           "2026-03-02",
-          "2026-03-23",
-          "2026-04-20"
+          "2026-03-23"
         ]
       }
     },
@@ -2961,14 +2944,6 @@
         ]
       }
     },
-    "Wild Coho Salmon with Rice Pilaf": {
-      "2025-2026 Middle School Lunch": {
-        "category": "Specials",
-        "days": [
-          "2026-04-20"
-        ]
-      }
-    },
     "Yogurt Grab & Go Lunch with Blueberry Mini Waffles": {
       "2025-2026 Middle School Lunch": {
         "category": "Grab And Go",
@@ -3065,6 +3040,7 @@
     "Wild Alaska Fish Tacos"
   ],
   "subs": [
-    "Kristine Rausch"
+    "Kristine Rausch",
+    "Rebecca (Staff) Mullinnix Fitzgerald"
   ]
 }
