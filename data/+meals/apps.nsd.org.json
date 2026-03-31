@@ -10522,32 +10522,6 @@
         "2026-04-27"
       ]
     },
-    "2025-2026 High School Lunch": {
-      "schoolNames": [
-        "Bothell High School",
-        "Inglemoor High School",
-        "North Creek High School",
-        "Woodinville High School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-04-22"
-      ]
-    },
-    "2025-2026 Middle School Lunch": {
-      "schoolNames": [
-        "Canyon Park Middle School",
-        "Kenmore Middle School",
-        "Leota Middle School",
-        "Northshore Middle School",
-        "Skyview Middle School",
-        "Timbercrest Middle School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-04-22"
-      ]
-    },
     "2025-2026 Pre-K Lunch": {
       "schoolNames": [
         "Westhill Elementary",
@@ -10557,15 +10531,6 @@
       "days": [
         "2026-03-30",
         "2026-04-27"
-      ]
-    },
-    "2025-2026 SAS and ILAB Lunch": {
-      "schoolNames": [
-        "Innovation Lab High School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-04-22"
       ]
     }
   },
@@ -10846,34 +10811,6 @@
         "2026-04-14",
         "2026-04-21",
         "2026-04-28"
-      ]
-    }
-  },
-  "Penne Pasta with Marinara and Cheese": {
-    "2025-2026 High School Lunch": {
-      "schoolNames": [
-        "Bothell High School",
-        "Inglemoor High School",
-        "North Creek High School",
-        "Woodinville High School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-04-22"
-      ]
-    },
-    "2025-2026 Middle School Lunch": {
-      "schoolNames": [
-        "Canyon Park Middle School",
-        "Kenmore Middle School",
-        "Leota Middle School",
-        "Northshore Middle School",
-        "Skyview Middle School",
-        "Timbercrest Middle School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-04-22"
       ]
     }
   },
@@ -11246,7 +11183,6 @@
         "2026-04-17",
         "2026-04-20",
         "2026-04-21",
-        "2026-04-22",
         "2026-04-23",
         "2026-04-24",
         "2026-04-27",
@@ -13685,8 +13621,7 @@
       "category": "Specials",
       "days": [
         "2026-03-02",
-        "2026-03-23",
-        "2026-04-20"
+        "2026-03-23"
       ]
     },
     "2025-2026 Middle School Lunch": {
@@ -13701,8 +13636,7 @@
       "category": "Specials",
       "days": [
         "2026-03-02",
-        "2026-03-23",
-        "2026-04-20"
+        "2026-03-23"
       ]
     },
     "2025-2026 SAS and ILAB Lunch": {
@@ -13711,8 +13645,7 @@
       ],
       "category": "Specials",
       "days": [
-        "2026-03-23",
-        "2026-04-20"
+        "2026-03-23"
       ]
     }
   },
@@ -15517,32 +15450,6 @@
       "category": "A Lunch",
       "days": [
         "2026-04-03"
-      ]
-    },
-    "2025-2026 High School Lunch": {
-      "schoolNames": [
-        "Bothell High School",
-        "Inglemoor High School",
-        "North Creek High School",
-        "Woodinville High School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-04-20"
-      ]
-    },
-    "2025-2026 Middle School Lunch": {
-      "schoolNames": [
-        "Canyon Park Middle School",
-        "Kenmore Middle School",
-        "Leota Middle School",
-        "Northshore Middle School",
-        "Skyview Middle School",
-        "Timbercrest Middle School"
-      ],
-      "category": "Specials",
-      "days": [
-        "2026-04-20"
       ]
     }
   },
