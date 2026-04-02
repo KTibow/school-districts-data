@@ -1484,36 +1484,6 @@
       ]
     }
   },
-  "Beef Teriyaki Rice Bowl": {
-    "2025-2026 Elementary School Lunch": {
-      "schoolNames": [
-        "Arrowhead Elementary",
-        "Canyon Creek Elementary",
-        "Cottage Lake Elementary",
-        "Crystal Springs Elementary",
-        "East Ridge Elementary",
-        "Fernwood Elementary",
-        "Frank Love Elementary",
-        "Hollywood Hill Elementary",
-        "Kenmore Elementary",
-        "Kokanee Elementary",
-        "Lockwood Elementary",
-        "Maywood Hills Elementary",
-        "Moorlands Elementary",
-        "Ruby Bridges Elementary",
-        "Shelton View Elementary",
-        "Sunrise Elementary",
-        "Wellington Elementary",
-        "Westhill Elementary",
-        "Woodin Elementary",
-        "Woodmoor Elementary"
-      ],
-      "category": "A Lunch",
-      "days": [
-        "2026-04-20"
-      ]
-    }
-  },
   "Black Beans": {
     "2025-2026 Elementary School Lunch": {
       "schoolNames": [
@@ -3076,6 +3046,36 @@
         "2026-04-24"
       ],
       "servedWith": "Tater Tots"
+    }
+  },
+  "Chicken Teriyaki Rice Bowl": {
+    "2025-2026 Elementary School Lunch": {
+      "schoolNames": [
+        "Arrowhead Elementary",
+        "Canyon Creek Elementary",
+        "Cottage Lake Elementary",
+        "Crystal Springs Elementary",
+        "East Ridge Elementary",
+        "Fernwood Elementary",
+        "Frank Love Elementary",
+        "Hollywood Hill Elementary",
+        "Kenmore Elementary",
+        "Kokanee Elementary",
+        "Lockwood Elementary",
+        "Maywood Hills Elementary",
+        "Moorlands Elementary",
+        "Ruby Bridges Elementary",
+        "Shelton View Elementary",
+        "Sunrise Elementary",
+        "Wellington Elementary",
+        "Westhill Elementary",
+        "Woodin Elementary",
+        "Woodmoor Elementary"
+      ],
+      "category": "A Lunch",
+      "days": [
+        "2026-04-20"
+      ]
     }
   },
   "Cilantro Slaw": {
