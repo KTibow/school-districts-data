@@ -1,12 +1,12 @@
 {
   "weather": {
     "2026-04-03": "Partly sunny, with a high near 57.",
-    "2026-04-04": "Mostly sunny, with a high near 61.",
-    "2026-04-05": "Partly sunny, with a high near 63.",
-    "2026-04-06": "Mostly sunny, with a high near 68.",
+    "2026-04-04": "Sunny, with a high near 61.",
+    "2026-04-05": "Partly sunny, with a high near 65.",
+    "2026-04-06": "Mostly sunny, with a high near 69.",
     "2026-04-07": "Partly sunny, with a high near 56.",
     "2026-04-08": "Mostly sunny, with a high near 57.",
-    "2026-04-09": "Mostly sunny, with a high near 58."
+    "2026-04-09": "Sunny, with a high near 60."
   },
   "meals": {
     "1% White Milk": {
@@ -1764,12 +1764,14 @@
   "subs": [
     "Ailisa D. Newhall",
     "Amanda Santiago",
-    "Colin White",
+    "Christine Fillman",
     "Crystal Foti",
     "Haakon Aasan",
     "Jeff Armentrout",
+    "Juli Van Pelt",
+    "Kiah Hebel",
     "Kimberly Janos",
     "Lexi R. Bradfield",
-    "Malisa Spencer"
+    "Todd Mass"
   ]
 }
