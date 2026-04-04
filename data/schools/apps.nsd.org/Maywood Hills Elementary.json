@@ -1,12 +1,12 @@
 {
   "weather": {
-    "2026-04-03": "Partly sunny, with a high near 57.",
     "2026-04-04": "Sunny. High near 62, with temperatures falling to around 60 in the afternoon.",
-    "2026-04-05": "Partly sunny, with a high near 64.",
-    "2026-04-06": "Mostly sunny, with a high near 67.",
-    "2026-04-07": "Partly sunny, with a high near 53.",
-    "2026-04-08": "Mostly sunny, with a high near 56.",
-    "2026-04-09": "Mostly sunny, with a high near 58."
+    "2026-04-05": "Partly sunny, with a high near 65.",
+    "2026-04-06": "Mostly sunny, with a high near 69.",
+    "2026-04-07": "Partly sunny, with a high near 54.",
+    "2026-04-08": "Mostly sunny, with a high near 57.",
+    "2026-04-09": "Sunny, with a high near 59.",
+    "2026-04-10": "Mostly sunny, with a high near 60."
   },
   "meals": {
     "1% White Milk": {
@@ -936,10 +936,5 @@
     "Yogurt Lunch with Mini French Toast",
     "Yogurt Lunch with Puffed Pancake Bites"
   ],
-  "subs": [
-    "Jennifer Deskin",
-    "Nikki (Staff) Cannon",
-    "Rana (Staff) Mahmud",
-    "Zachary Seay"
-  ]
+  "subs": []
 }
